@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@color/red"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:src="@drawable/mbicon"/>
+
+    <EditText
+        android:id="@+id/et_LoginTC"
+        android:layout_marginTop="15dp"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="Müşteri numarası / T.C."
+        />
+    <EditText
+        android:id="@+id/et_LoginPW"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="Şifre"
+        />
+
+    <Button
+        android:textColor="@color/white"
+        android:id="@+id/btn_Login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Giriş Yap"/>
+
+
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Henüz Müşterimiz Değilmisiniz ?"
+        android:textColor="@color/white"/>
+    <Button
+        android:textColor="@color/white"
+        android:id="@+id/btn_LoginKayitOl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="musteri OL"/>
+
+
+    <Button
+        android:textColor="@color/white"
+        android:id="@+id/btn_LoginAdmin"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Admin girişi"/>
+
+    <TextView
+        android:layout_marginTop="120dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Creators : Umut Can Demirkaynak &amp; Ali Terliksiz"/>
+
+
+
+
+
+</LinearLayout>

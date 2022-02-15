@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/red"
+    tools:context=".SignupActivity">
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:src="@drawable/mbicon"/>
+
+    <TextView
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LÜTFEN AÇMAK İSTEDİĞİNİZ HESAP TÜRÜNÜ DEĞİŞTİRİNİZ"
+        android:textColor="@color/black"/>
+
+    <Spinner
+        android:layout_marginTop="15dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinnerSingUp"
+        />
+
+    <EditText
+        android:layout_marginTop="50dp"
+        android:id="@+id/signupVergi"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="VERGİ NO"/>
+
+    <EditText
+        android:id="@+id/signupSirket"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="ŞİRKET ADI"/>
+
+    <EditText
+        android:id="@+id/signupAd"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="ADINIZ"/>
+    <EditText
+        android:id="@+id/signupSoyad"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="SOYADINIZ"/>
+    <EditText
+        android:id="@+id/signupTc"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="TC"/>
+    <EditText
+        android:id="@+id/signupSifre"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="SİFRE"/>
+
+    <Button
+        android:textColor="@color/white"
+        android:id="@+id/signup_MusteriOl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="musteri ol"/>
+
+
+</LinearLayout>

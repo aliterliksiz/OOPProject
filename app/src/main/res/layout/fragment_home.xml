@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:gravity="center_horizontal"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/red"
+    tools:context=".ui.home.HomeFragment">
+
+
+    <ImageView
+        android:layout_marginTop="13dp"
+        android:layout_marginLeft="13dp"
+        android:layout_gravity="left"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/exit"
+        android:id="@+id/exitButton"/>
+
+    <TextView
+        android:layout_marginTop="55dp"
+        android:id="@+id/tv_Home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HOŞGELDİNİZ"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        />
+
+    <org.eazegraph.lib.charts.PieChart
+        android:layout_marginTop="15dp"
+        android:id="@+id/pie_chart"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:padding="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="YATIRMA VE ÇEKME İŞLEMLERİ : "
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginRight="75dp"/>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/paraGonderButton"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:text="para gönder"
+            android:layout_marginRight="30dp"
+            android:textColor="@color/white"/>
+        <Button
+            android:id="@+id/paraCekButton"
+            android:layout_marginRight="30dp"
+            android:layout_width="100dp"
+            android:layout_height="90dp"
+            android:textColor="@color/white"
+            android:text="para çek"/>
+
+        <Button
+            android:id="@+id/bakiyeYukleButton"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:text="bakiye yükle"
+            android:textColor="@color/white"/>
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="KREDİ İŞLEMLERİ : "
+        android:textColor="@color/black"
+        android:layout_marginRight="120dp"/>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/krediCekButton"
+            android:layout_width="130dp"
+            android:layout_height="80dp"
+            android:layout_marginRight="30dp"
+            android:textColor="@color/white"
+            android:text="Kredi çek"/>
+        <Button
+            android:id="@+id/krediOdeButton"
+            android:layout_width="130dp"
+            android:layout_height="80dp"
+            android:text="kredi taksit öde"
+            android:textColor="@color/white"/>
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@color/red"
+    tools:context=".krediUI.KredicekActivity">
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:src="@drawable/kredi"/>
+
+    <TextView
+        android:layout_marginTop="15dp"
+        android:textColor="@color/black"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Type"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:id="@+id/krediFaizTV"/>
+    <TextView
+        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="kredi faizi"
+        android:textStyle="bold"
+        android:id="@+id/faizMiktariKrediCek"/>
+
+    <EditText
+        android:layout_marginTop="15dp"
+        android:id="@+id/krediCekMiktar"
+        android:layout_width="380dp"
+        android:gravity="center"
+        android:inputType="number"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"
+        android:hint="Çekmek istediğiniz kredi miktarını giriniz"/>
+    <TextView
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:text="LÜTFEN GERİ ÖDEMEK İSTEDİĞİNİZ TAKSİT SAYISINI SEÇİNİZ"/>
+    <Spinner
+        android:layout_marginTop="15dp"
+        android:layout_width="300dp"
+        android:id="@+id/spinnerKrediTaksit"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        />
+    <TextView
+        android:layout_marginTop="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:text="ÖDEME PLANINIZ "/>
+    <TextView
+        android:layout_marginTop="25dp"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:id="@+id/odemePlaniTV"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvGeriOdememiktari"/>
+    <Button
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="KREDİYİ ONAYLA"
+        android:textColor="@color/white"
+        android:id="@+id/krediCekonayButton"/>
+
+
+</LinearLayout>

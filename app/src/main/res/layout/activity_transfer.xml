@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/red"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:layout_height="match_parent"
+    tools:context=".bakiyeUI.TransferActivity">
+
+    <ImageView
+        android:layout_marginTop="50dp"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:src="@drawable/mbicon"/>
+
+    <EditText
+        android:layout_marginTop="15dp"
+        android:id="@+id/etTransferHesapNo"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Transfer edilecek hesap no"/>
+
+    <EditText
+        android:layout_marginTop="15dp"
+        android:id="@+id/etTransferMiktar"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Transfer edilecek miktar"
+        />
+    <Button
+        android:layout_marginTop="15dp"
+        android:id="@+id/btnTransfer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="transferi tamamla"
+        android:textColor="@color/white"/>
+
+</LinearLayout>

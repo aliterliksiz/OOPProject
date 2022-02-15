@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_marginLeft="15dp"
+    android:layout_marginRight="15dp"
+    android:gravity=""
+    android:orientation="vertical"
+    android:layout_marginTop="5dp"
+    android:background="@drawable/rounded_corner"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@drawable/account"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginLeft="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:textColor="@color/black"
+                android:id="@+id/adapterTvAd"
+                android:layout_marginTop="3dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ad : "
+                />
+            <TextView
+                android:textColor="@color/black"
+                android:id="@+id/adapterTvSoyad"
+                android:layout_marginTop="3dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Soyad : "
+                />
+            <TextView
+                android:textColor="@color/black"
+                android:id="@+id/adapterTvSifre"
+                android:layout_marginTop="3dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Şifre : "
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginLeft="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:textColor="@color/black"
+                android:id="@+id/adapterTvHesapno"
+                android:layout_marginTop="3dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hesap No : "
+                />
+            <TextView
+                android:textColor="@color/black"
+                android:id="@+id/adapterTvBakiye"
+                android:layout_marginTop="3dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bakiye : "
+                />
+            <TextView
+                android:textColor="@color/black"
+                android:id="@+id/adapterTvTc"
+                android:layout_marginTop="3dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TC : "
+                />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnKullaniciSil"
+            android:layout_marginLeft="5dp"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:text="kullaniciyi sil"
+            android:textSize="10sp"
+            android:textColor="@color/white"/>
+        <Button
+            android:id="@+id/btnKullaniciGuncelle"
+            android:layout_marginLeft="5dp"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:textSize="10sp"
+            android:text="kullaniciyi güncelle"
+            android:textColor="@color/white"/>
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+</LinearLayout>
